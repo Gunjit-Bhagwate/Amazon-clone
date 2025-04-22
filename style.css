@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  height: 60px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: #131921;
+}
+
+.pin-icon {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  color: #ccc;
+  margin-left: 5px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 45px;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 620px;
+  font-size: 14px;
+}
+
+.search-button {
+  background-color: #febd69;
+  border: none;
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-button i {
+  color: #131921;
+  font-size: 18px;
+}
+
+span {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.nav-account,
+.nav-order,
+.cart1 {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.nav-return {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.cart {
+  background-color: white;
+  border: none;
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.panel-all {
+  color: white;
+  font-size: 1.1rem;
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.panel {
+  height: 40px;
+  color: white;
+  background-color: #222f3d;
+  display: flex;
+  align-items: center;
+}
+
+.panel-ops {
+  display: flex;
+  gap: 15px;
+  padding-left: 10px;
+}
+
+.hero-section {
+  background-image: url("assets/hero-1.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
